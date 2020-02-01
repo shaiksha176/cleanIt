@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Sigmar+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap");
+body {
+  background-color: white;
+}
+.navbar {
+  background-color: transparent;
+}
+.navbar-brand {
+  color: #2e7d32;
+  font-family: "Bangers", cursive;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.navbar-brand:hover {
+  color: black;
+}
+li a {
+  color: black;
+  font-family: "Sigmar One", cursive;
+}
+li a:hover {
+  color: #2e7d32;
+}
+.dropdown-item:hover {
+  color: #2e7d32;
+}
+.just {
+  text-transform: uppercase;
+  /* font-weight: bold; */
+  font-size: 80px;
+  padding: 25px;
+  text-align: center;
+  letter-spacing: 5px;
+  /* font-family: "Sigmar One", cursive; */
+  font-family: "Raleway", sans-serif;
+}
+/* .just span {
+  display: block;
+  font-size: 80x;
+} */
+.card img {
+  height: 231px;
+}
+.card-bg {
+  /* background-color: #85aca0; */
+  /* background-color: #c3d0c5; */
+  background-color: #c5e1a5;
+}
+.card-header {
+  background-color: white;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.card-body {
+  font-family: "Montserrat", sans-serif;
+}
+.reviews {
+  text-align: center;
+  font-family: "Bowlby One SC", cursive;
+}
+.contact-page {
+  background-color: #c5e1a5;
+  color: #5d5d5a;
+  font-family: "Montserrat", sans-serif;
+}
+.contact-heading {
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+.checked {
+  color: orange;
+}
+.pay p {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.pay div {
+  text-align: center;
+}
+.pay div .fab,
+.fas {
+  font-size: 68px;
+}
+.how-it-works p {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.how-it-works i {
+  padding: 2px;
+}
+.how-it-works span {
+  font-size: 36px;
+  padding-left: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+.work-detail {
+  padding-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  word-spacing: 2px;
+}

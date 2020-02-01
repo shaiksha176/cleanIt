@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/b8ff72cf55.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/animate.css"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">CleanPro</a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Why CleanPro?</a>
+                        <a class="dropdown-item" href="#">Our Team</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Client reviews</a>
+                    </div>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Residential services</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Residential services </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">House cleaning</a>
+                        <a class="dropdown-item" href="#">House keeping</a>
+                        <a class="dropdown-item" href="#">carpet cleaning</a>
+                        <a class="dropdown-item" href="#">Plumbing services</a>
+                        <a class="dropdown-item" href="#">Electrical services</a>
+                        <a class="dropdown-item" href="#">Garden & law Maintenance</a>
+                        <a class="dropdown-item" href="#">End of tenacy cleaning</a>
+                        <a class="dropdown-item" href="#">pest control services</a>
+
+
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Commercial services </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">House keeping & cleaning services</a>
+                        <a class="dropdown-item" href="#">Shower Cubicles</a>
+                        <a class="dropdown-item" href="#">Facade cleaning</a>
+                        <a class="dropdown-item" href="#">Home & office Painting</a>
+
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="just">
+        Now we are closer to you.
+        Just opened at
+        <span>whitefield &</span>
+        Thanisandra
+        <!-- HTML to write -->
+        <!-- <a href="#" data-toggle="tooltip" title="Some tooltip text!">Hover over me</a> -->
+
+        <!-- Generated markup by the plugin -->
+        <!-- <div class="tooltip bs-tooltip-top" role="tooltip">
+            <div class="arrow"></div>
+            <div class="tooltip-inner">
+                <img src="https://cdn.pixabay.com/photo/2019/12/22/09/31/lion-4712141__340.jpg" alt="">
+            </div>
+        </div> -->
+
+    </div>
+    <!-- <span class="tooltip" onmouseover="tooltip.pop(this, '#demo2_tip', {position:0, cssClass:'no-padding'})">
+        Content from another element
+    </span>
+    <div style="display:none;">
+        <div id="demo2_tip">
+            <img src="tooltip-head.jpg" />
+            <h3>SEO Friendly</h3>
+            The tooltip content is from another element in the page. This approach is <b>Search Engine Friendly</b>.
+        </div>
+    </div> -->
+    <div class="card-bg wow fadeInDown" data-aos="fade-up">
+
+        <br><br>
+
+        <div class="container">
+            <div class="row wow fadeInDown">
+                <div class=" col mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Residential Services
+                        </div>
+                        <img src="https://cdn.pixabay.com/photo/2018/01/25/20/53/lifestyle-3107041_960_720.jpg"
+                            class="card-img-top fruit" alt="...">
+                        <div class="card-body">
+                            Your home is your sanctuary. After a long day's work, you want to come back to a clean and
+                            comfortable home. CleanPro
+                            can make this possible for you. We offer an extensive range of cleaning services specially
+                            designed for residences.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Commercial Services
+                        </div>
+                        <img src="https://cdn.pixabay.com/photo/2015/05/15/14/22/conference-room-768441__340.jpg"
+                            class="card-img-top fruit" alt="...">
+                        <div class="card-body">
+                            We understand the importance of having a clean and healthy workplace to keep your employees
+                            safe and happy, to improve
+                            productivity, and to impress clients who walk into your office. Our reliable cleaning
+                            services will keep your premises
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Why CleanPro?
+                        </div>
+                        <img src="https://cdn.pixabay.com/photo/2016/09/07/10/04/education-1651259__340.jpg"
+                            class="card-img-top fruit" alt="...">
+                        <div class="card-body">
+                            With more than 2000 completed services, we have an excellent track record of being one of
+                            the best integrated services
+                            company in Bangalore. Our employees undergo extensive training and verification checks.
+                            CleanPro is your best choice.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="client-review" data-aos="fade-right">
+        <br><br>
+        <div class="container">
+            <h1 class="reviews"> <span class="our-review">What Clients say...?</span></h1>
+            <br>
+            <div class="row">
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="card-header">HITMAN</div>
+                        <div class="card-body">
+                            <h5 class="card-title"><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span></h5>
+                            <p class="card-text customer-review">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum maiores quidem vitae,
+                                ipsum
+                                non error ab fugit adipisci sequi voluptate voluptatem, deserunt repellat, fuga
+                                repudiandae
+                                nesciunt consequuntur dignissimos cumque!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="card-header">M S DHONI</div>
+                        <div class="card-body">
+                            <h5 class="card-title"><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span></h5>
+                            <p class="card-text customer-review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum exercitationem dolore
+                                doloremque cupiditate hic mollitia provident rerum error ea molestiae illo, ipsa, iste
+                                aliquam ratione pariatur? Suscipit repudiandae cumque maxime
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="card-header">VIRAT KOHLI</div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </h5>
+                            <p class="card-text customer-review">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum tempora, veniam
+                                dignissimos
+                                perspiciatis quis eius odio suscipit in atque minima voluptate, tempore officiis
+                                delectus.
+                                Omnis quis numquam ab sit ducimus!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="pay" data-aos="fade-up">
+        <p>pay us at</p>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <i class="fas fa-wallet"></i>
+                </div>
+                <div class="col-sm">
+                    <i class="fab fa-cc-mastercard"></i>
+                </div>
+                <div class="col-sm">
+                    <i class="fab fa-cc-amex"></i>
+                </div>
+                <div class="col-sm">
+                    <i class="fab fa-cc-visa"></i>
+                </div>
+                <div class="col-sm">
+                    <i class="fas fa-money-check"></i>
+
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+
+    <div class="how-it-works " data-aos="fade-up">
+        <p>how it works</p>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <i class="fas fa-phone"></i>
+                    <span>contact us</span>
+
+                    <div class="work-detail">
+                        Call us or fill in the request form with details about the type of cleaning service you need,
+                        where, and when.
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                    <i class="fas fa-tasks"></i>
+                    <span>site visit</span>
+                    <div class="work-detail">
+                        Our executive will visit your premises to understand your requirement in detail and to give you
+                        an idea of what you can
+                        expect.
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <i class="fas fa-handshake"></i>
+                    <span>Execution</span>
+                    <div class="work-detail">
+                        Our cleaning staff will come over and clean the premises just as you require.
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br><br>
+    </div>
+    <div class="contact-page">
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <span class="contact-heading"> Contact Us:</span><br>
+                    <ul>
+                        <li>CleanPro Services Pvt. Ltd.
+                        </li>
+                        <li>No 11/1, KHR House, Cunningham Road,</li>
+                        <li>Vasanth Nagar, Bangalore- 560052</li><br>
+                        <li>#1149, Annapurneshwari Nilaya, Basaweshwara layout,</li>
+                        <li>Vinayak Nagar, Whitefield, Bangalore - 560066
+                        </li>
+                        <li>Call: 98440-30100
+                        </li>
+                    </ul>
+
+
+
+
+
+
+                </div>
+                <div class="col-sm-3">
+                    <span class="contact-heading">Quick Links:</span><br>
+                    <ul>
+                        <li>About Us
+                        </li>
+                        <li>Why CleanPro
+                        </li>
+                        <li>Our Team
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+
+                    <span class="contact-heading">Residential Services:</span><br>
+                    <ul>
+                        <li>Housekeeping
+                        </li>
+                        <li>House Cleaning
+                        </li>
+                        <li>Carpet Cleaning
+                        </li>
+                        <li>Plumbing Services
+                        </li>
+                        <li>Electrical Services
+                        </li>
+                        <li>Garden & Lawn Maintenance
+                        </li>
+                        <li>End of Tenancy Cleaning
+                        </li>
+                        <li>Pest Control Services
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-sm-3">
+                    <span class="contact-heading"> Commercial Services:</span><br>
+                    <ul>
+                        <li>HouseKeeping & Cleaning Services
+                        </li>
+                        <li>Carpet, Sofa & Chair Cleaning
+                        </li>
+                        <li>Plumbing Services
+                        </li>
+                        <li>Electrical Services
+                        </li>
+                        <li>Plants and Lawn Maintenance
+                        </li>
+                        <li>Pest Control Services
+                        </li>
+                        <li>Shower Cubicles Services
+                        </li>
+                        <li>Home and Office Painting Services
+                        </li>
+                        <!-- <li>Hiring of Office boy or House Keeping Staff Services
+                        </li>
+                        <li>Facade Cleaning Services
+                        </li> -->
+                        <li>Hiring/Leasing - Machines Scaffolding Services
+                        </li>
+                    </ul>
+                    <br><br>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- <script src="js/wow.min.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+
+        //$('#example').tooltip({ template: '<div class="tooltip" role="tooltip"><div class="arrow"></div><div class="tooltip-inner">   <img src="https://cdn.pixabay.com/photo/2019/12/22/09/31/lion-4712141__340.jpg" alt=""></div></div>' })
+        //  new WOW().init();
+        // $(document).ready(function () {
+        //     // const element = document.querySelector('.contact-page')
+        //     // const card = document.querySelectorAll('.card')
+        //     $(".card-bg").scroll(function () {
+        //         // card.forEach(c => c.classList.add('animated', 'bounce'))
+        //         $(this).addClass('animated', 'bounce')
+        //         // element.classList.add('animated', 'bounce')
+        //     });
+        // });
+        AOS.init({
+            once: true
+        });
+
+    </script>
+</body>
+
+</html>
